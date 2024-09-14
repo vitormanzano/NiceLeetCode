@@ -17,6 +17,6 @@ class Solution(object):
             return True
         else:
             return False
-s = 0
+            
 
     
