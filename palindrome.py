@@ -8,10 +8,11 @@ class Solution(object):
             k = aux%10
             s = s+k
             aux =aux//10
+            
             if aux==0:
                 break
-                
             s =s*10
+            
         if s==x:
             return True
         else:
