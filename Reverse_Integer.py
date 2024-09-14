@@ -17,6 +17,7 @@ class Solution(object):
             sum = sum *(-1)
             
         sum = sum//10
+        
         if sum >  (2**31) -1 or sum  < -2 ** 31:
             return 0
         return sum
