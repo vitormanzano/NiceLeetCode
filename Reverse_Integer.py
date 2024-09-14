@@ -1,7 +1,6 @@
 class Solution(object):
     def reverse(self, x):
         aux = x
-        
         if aux<0:
             aux = aux*(-1)
             
