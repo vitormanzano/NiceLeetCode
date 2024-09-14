@@ -7,6 +7,7 @@ class Solution(object):
             aux = aux*(-1)
             
         sum = 0
+        
         while (aux>0):
             k = aux%10
             aux = aux//10
