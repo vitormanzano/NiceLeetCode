@@ -9,10 +9,12 @@ class Solution(object):
         sum = 0
         
         while (aux>0):
+            
             k = aux%10
             aux = aux//10
             sum +=k
             sum = sum*10
+            
         if x<0:
             sum = sum *(-1)
         sum = sum//10
