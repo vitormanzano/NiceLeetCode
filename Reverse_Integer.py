@@ -3,6 +3,7 @@ class Solution(object):
         aux = x
         if aux<0:
             aux = aux*(-1)
+            
         sum = 0
         while (aux>0):  
             k = aux%10
